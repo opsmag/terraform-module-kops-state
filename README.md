@@ -1,2 +1,2 @@
-# terraform-module-kops-state
-Terraform module for Kops State
+# terraform-module-aws-tf-state
+Terraform Module to store and lock Terraform AWS state.
