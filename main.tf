@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "${var.project_name}-${var.environment}-${var.region}-terraform-state"
+  bucket = "${var.project_name}-${var.environment}-${var.region}-kops-state"
   acl    = var.acl
 
   versioning {
