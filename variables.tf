@@ -11,7 +11,7 @@ variable "environment" {
 variable "name" {
   description = "Name of S3 bucket"
   type        = string
-  default     = "Terraform State"
+  default     = "Kops State"
 }
 
 variable "versioning_enabled" {
